@@ -1,0 +1,9 @@
+This is a perl tool that is used to scrape meaningful information from web sites.
+
+This tool must be configured in order for it to function properly
+
+use:
+ - scraper_tools_v1.pm --> get a web page
+ - getYid.pl --> Driver
+ - getYidListings.pm --> get all of the data from a web page
+
