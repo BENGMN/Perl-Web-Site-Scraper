@@ -1,9 +1,5 @@
-This is a perl tool that is used to scrape meaningful information from web sites.
+This is a Perl module which has been created to allow you to easily get a web page's content.
+This tool uses the CURL library which has been deisgned to allow you to get content from various sources including the net.
 
-This tool must be configured in order for it to function properly
-
-use:
- - scraper_tools_v1.pm --> get a web page
- - getYid.pl --> Driver
- - getYidListings.pm --> get all of the data from a web page
+I have implemented the WWW:Curl:Easy function and simplified the process a bit for you by allowing you to simply call my function with the URL you would like to retrieve as the sole parameter. My function will return the web page as a string that can you can then parse however you deem necessary. To augment the performance when using my code I would recommend that any calls you make to my function be references so that you do not have a few variables floating around memory with the same information (the content of the web page we got).
 
